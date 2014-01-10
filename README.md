@@ -27,6 +27,7 @@ modules:
 ```
 
 * Access the values from your test scripts, e.g.
+
 ```php
 $I->fillField('signin[username]', $I->getConfig('login_username'));
 ```
